@@ -155,8 +155,8 @@
                 <div class="section-divider"><i class="fa-solid fa-compact-disc text-xl"></i></div>
 
                 <div class="bg-white shadow-xl border border-stone-100 overflow-hidden rounded-lg">
-                    <div class="bg-brand-dark text-white p-4 sm:p-6 flex flex-wrap gap-4 justify-between items-center relative">
-                        <div class="z-10">
+                    <div class="bg-brand-dark text-white p-4 sm:p-6 flex flex-col items-center sm:flex-row gap-4 sm:justify-between relative">
+                        <div class="z-10 text-center sm:text-left">
                             <h2 class="text-xl font-bold">Ваш вибір</h2>
                             <p class="text-white/70 text-xs mt-1">Список для музикантів</p>
                         </div>
@@ -171,7 +171,7 @@
                                 <i class="fa-solid fa-arrow-rotate-left text-white"></i>
                             </button>
 
-                            <div id="selectedCounterTop" class="h-10 flex items-center justify-center bg-black/20 px-3 rounded text-2xl font-bold font-mono tracking-tighter">
+                            <div id="selectedCounterTop" class="h-10 flex items-center justify-center bg-black/20 px-3 rounded text-2xl font-bold tracking-tighter">
                                 <span id="counterValueTop" class="text-brand-gold transition-colors">0</span><span class="text-white/40 text-base">/50</span>
                             </div>
                         </div>
@@ -349,5 +349,4 @@
     renderSongList(); renderSelectedList(); updateCounters();
 </script>
 </body>
-
 </html>
