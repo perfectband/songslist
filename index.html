@@ -99,8 +99,9 @@
             z-index: 50;
             border: 3px solid white;
             border-radius: 8px;
+            transition: transform 0.1s ease-out; /* Зроблено плавнішим як у решти кнопок */
         }
-        .scroll-button:active { transform: scale(0.95); }
+        .scroll-button:active { transform: scale(0.96); } /* Уніфіковано з іншими кнопками */
 
         button:active { transform: scale(0.96); }
         .btn-success { background: #16a34a !important; border-color: #16a34a !important; color: white !important; }
@@ -156,29 +157,28 @@
 
                 <div class="bg-white shadow-xl border border-stone-100 overflow-hidden rounded-lg">
                     <div class="bg-brand-dark text-white p-4 sm:p-6 flex flex-col items-center sm:flex-row gap-4 sm:justify-between relative">
-                            <div class="z-10 text-center sm:text-left">
-                                <h2 class="text-xl font-bold">Ваш вибір</h2>
-                                <p class="text-white/70 text-xs mt-1">Список для музикантів</p>
-                            </div>
+                        <div class="z-10 text-center sm:text-left">
+                            <h2 class="text-xl font-bold">Ваш вибір</h2>
+                            <p class="text-white/70 text-xs mt-1">Список для музикантів</p>
+                        </div>
 
-                            <div class="flex flex-wrap items-center justify-center sm:justify-end gap-2 z-10">
-
-                                <button id="copyButtonTop" class="h-10 rounded bg-white/10 border border-white/20 flex items-center justify-center gap-2 text-xs font-bold uppercase tracking-wider transition-all whitespace-nowrap">
-                                    <i class="fa-regular fa-copy"></i>
-                                    <span>Скопіювати список</span>
-                                </button>
-
-                                <button id="undoButton" class="w-10 h-10 rounded bg-white/10 flex items-center justify-center disabled:opacity-30 border border-white/20 transition-all" disabled title="Відновити видалене">
-                                    <i class="fa-solid fa-arrow-rotate-left text-white"></i>
-                                </button>
-
-                                <div id="selectedCounterTop" class="h-10 flex items-center justify-center bg-black/20 px-4 rounded font-bold tracking-tight">
-                                    <div class="flex items-baseline">
-                                        <span id="counterValueTop" class="text-2xl text-brand-gold transition-colors leading-none">0</span>
-                                        <span class="text-base text-white/40 ml-0.5 leading-none">/50</span>
-                                    </div>
+                        <div class="flex flex-wrap items-center justify-center sm:justify-end gap-2 z-10">
+                            
+                            <div id="selectedCounterTop" class="h-10 flex items-center justify-center bg-black/20 px-4 rounded font-bold tracking-tight">
+                                <div class="flex items-baseline">
+                                    <span id="counterValueTop" class="text-2xl text-brand-gold transition-colors leading-none">0</span>
+                                    <span class="text-base text-white/40 ml-0.5 leading-none">/50</span>
                                 </div>
                             </div>
+
+                            <button id="undoButton" class="w-10 h-10 rounded bg-white/10 flex items-center justify-center disabled:opacity-30 border border-white/20 transition-all" disabled title="Відновити видалене">
+                                <i class="fa-solid fa-arrow-rotate-left text-white"></i>
+                            </button>
+
+                            <button id="copyButtonTop" class="h-10 rounded bg-white/10 border border-white/20 flex items-center justify-center gap-2 text-xs font-bold uppercase tracking-wider transition-all whitespace-nowrap">
+                                <i class="fa-regular fa-copy"></i>
+                                <span>Скопіювати список</span>
+                            </button>
                         </div>
                     </div>
 
