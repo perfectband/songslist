@@ -33,6 +33,7 @@
             { id: 'ukr-pop-8', title: "Покохай мене", artist: "Chico, Qatoshi, 100лиця", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-9', title: "Все пробачати", artist: "Dan Balan, Oksana Mukha", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-10', title: "Хочеш", artist: "Dibrova, Олена Тополя", category: "Українські", subcategory: "Поп" },
+            { id: 'ukr-pop-92', title: "Дим", artist: "Dorofeeva", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-11', title: "Кохаю, але не зовсім", artist: "Dorofeeva", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-12', title: "Спитай у чата джипіті", artist: "Dorofeeva", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-13', title: "Смарагдове небо", artist: "Drevo", category: "Українські", subcategory: "Поп" },
@@ -119,7 +120,7 @@
             { id: 'ukr-pop-89', title: "Пінаколада", artist: "Віталій Козловський", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-90', title: "Люблю тебе", artist: "Віталій Лобач", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-139', title: "Пісня буде поміж нас", artist: "Володимир Івасюк", category: "Українські", subcategory: "Поп" },
-            { id: 'ukr-pop-92', title: "Дим", artist: "Время и Стекло", category: "Українські", subcategory: "Поп" },
+            
             { id: 'ukr-pop-93', title: "Самотня босса", artist: "Гайтана", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-94', title: "Поведи мене", artist: "Гурт Будьмо", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-95', title: "Причарувала-приворожила", artist: "Гурт Будьмо", category: "Українські", subcategory: "Поп" },
