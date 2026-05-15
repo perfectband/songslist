@@ -1,5 +1,5 @@
     const allSongs = [
-        // Українські - Народні (алфавітний порядок за назвою) (last id - 20)
+        // Українські - Народні (алфавітний порядок за назвою) (last id - 22)
             { id: 'ukr-folk-1', title: "7-40", artist: "Народна", category: "Українські", subcategory: "Народні" },
             { id: 'ukr-folk-2', title: "А зорі, а зорі", artist: "Народна", category: "Українські", subcategory: "Народні" },
             { id: 'ukr-folk-3', title: "А я все дивлюся, де моя Маруся", artist: "Народна", category: "Українські", subcategory: "Народні" },
@@ -7,6 +7,7 @@
             { id: 'ukr-folk-5', title: "За нашов стодолов", artist: "Народна", category: "Українські", subcategory: "Народні" },
             { id: 'ukr-folk-6', title: "Лілія", artist: "Народна", category: "Українські", subcategory: "Народні" },
             { id: 'ukr-folk-7', title: "Нині, нині", artist: "Народна", category: "Українські", subcategory: "Народні" },
+            { id: 'ukr-folk-22', title: "Ой, Марічко, чичері", artist: "Борис Сичевський", category: "Українські", subcategory: "Народні" },
             { id: 'ukr-folk-8', title: "Ой там у Львові", artist: "Джазова фіра", category: "Українські", subcategory: "Народні" },
             { id: 'ukr-folk-9', title: "Плакуча Гітара", artist: "Народна", category: "Українські", subcategory: "Народні" },
             { id: 'ukr-folk-10', title: "Сама п'ю, сама наливаю", artist: "Марина і компанія", category: "Українські", subcategory: "Народні" },
@@ -22,7 +23,7 @@
             { id: 'ukr-folk-20', title: "Час рікою пливе", artist: "Народна", category: "Українські", subcategory: "Народні" },
             { id: 'ukr-folk-21', title: "Чорні очка, як терен", artist: "Народна", category: "Українські", subcategory: "Народні" },
 
-            // Українські - Поп (last id - 145)
+            // Українські - Поп (last id - 157)
             { id: 'ukr-pop-1', title: "Повільно", artist: "Adam", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-2', title: "Особистий рай", artist: "Adam, Геля Зозуля", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-3', title: "Мужчина", artist: "Alena Omargalieva", category: "Українські", subcategory: "Поп" },
@@ -36,6 +37,7 @@
             { id: 'ukr-pop-92', title: "Дим", artist: "Dorofeeva", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-11', title: "Кохаю, але не зовсім", artist: "Dorofeeva", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-12', title: "Спитай у чата джипіті", artist: "Dorofeeva", category: "Українські", subcategory: "Поп" },
+            { id: 'ukr-pop-156', title: "Енкарапіста", artist: "Drevo", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-13', title: "Смарагдове небо", artist: "Drevo", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-14', title: "Вихідний", artist: "Dzidzio", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-15', title: "Моя любов", artist: "Dzidzio", category: "Українські", subcategory: "Поп" },
@@ -124,6 +126,7 @@
             { id: 'ukr-pop-93', title: "Самотня босса", artist: "Гайтана", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-94', title: "Поведи мене", artist: "Гурт Будьмо", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-95', title: "Причарувала-приворожила", artist: "Гурт Будьмо", category: "Українські", subcategory: "Поп" },
+            { id: 'ukr-pop-157', title: "Колись в мене була хлопців рота", artist: "Володимир Деркач", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-96', title: "А липи цвітуть", artist: "Іво Бобул", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-97', title: "Розмова з тобою", artist: "Іво Бобул", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-98', title: "Білі троянди", artist: "Ірина Федишин", category: "Українські", subcategory: "Поп" },
