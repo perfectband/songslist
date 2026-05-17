@@ -288,14 +288,12 @@
             return;
         }
         selectedListContainer.innerHTML = '';
-        let counter = 1;
         selectedSongs.forEach(song => {
             selectedListContainer.innerHTML += `
                 <div class="selected-item-row">
-                    <div class="flex-1 p-3 flex items-center transition-colors"><span class="font-mono text-brand-gold font-bold mr-3 w-6 text-right">${counter}.</span><div><span class="font-medium block leading-tight">${song.title}</span><span class="text-xs text-gray-500">${song.artist}</span></div></div>
+                    <div class="flex-1 p-3 flex items-center transition-colors"><div><span class="font-medium block leading-tight">${song.title}</span><span class="text-xs text-gray-500">${song.artist}</span></div></div>
                     <div class="delete-btn" data-song-id="${song.id}"><i class="fa-solid fa-trash-can text-lg"></i></div>
                 </div>`;
-            counter++;
         });
     }
 
@@ -330,7 +328,7 @@
 
     function copyList() {
         let text = `Плейлист (${selectedSongs.length}/${MAX_SONGS}):\n\n`;
-        selectedSongs.forEach((s, i) => text += `${i+1}. ${s.title} - ${s.artist}\n`);
+        selectedSongs.forEach(s => text += `${s.title} - ${s.artist}\n`);
 
         navigator.clipboard.writeText(text).then(() => {
             [copyButton, copyButtonTop].forEach(btn => {
