@@ -23,7 +23,7 @@
             { id: 'ukr-folk-20', title: "Час рікою пливе", artist: "Народна", category: "Українські", subcategory: "Народні" },
             { id: 'ukr-folk-21', title: "Чорні очка, як терен", artist: "Народна", category: "Українські", subcategory: "Народні" },
 
-            // Українські - Поп (last id - 157)
+            // Українські - Поп (last id - 160)
             { id: 'ukr-pop-1', title: "Повільно", artist: "Adam", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-2', title: "Особистий рай", artist: "Adam, Геля Зозуля", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-3', title: "Мужчина", artist: "Alena Omargalieva", category: "Українські", subcategory: "Поп" },
@@ -32,6 +32,7 @@
             { id: 'ukr-pop-6', title: "Пірнай", artist: "Alyosha & Vlad Darwin", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-7', title: "Гарно так", artist: "Cheev", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-8', title: "Покохай мене", artist: "Chico, Qatoshi, 100лиця", category: "Українські", subcategory: "Поп" },
+            { id: 'ukr-pop-160', title: "Акація", artist: "Chico, Qatoshi & paashee", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-9', title: "Все пробачати", artist: "Dan Balan, Oksana Mukha", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-10', title: "Хочеш", artist: "Dibrova, Олена Тополя", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-92', title: "Дим", artist: "Dorofeeva", category: "Українські", subcategory: "Поп" },
@@ -47,6 +48,7 @@
             { id: 'ukr-pop-19', title: "Киця", artist: "Dzidzio, Оля Цибульська", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-20', title: "Чекаю. Цьом", artist: "Dzidzio, Оля Цибульська", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-153', title: "Афини", artist: "FIЇNKA", category: "Українські", subcategory: "Поп" },
+            { id: 'ukr-pop-159', title: "Вівтар", artist: "FIЇNKA", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-21', title: "Потанцюй зі мною, тату", artist: "Franko Band", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-22', title: "Охрана Отмєна", artist: "Jerry Heil", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-23', title: "Додому", artist: "Kalush", category: "Українські", subcategory: "Поп" },
@@ -96,6 +98,7 @@
             { id: 'ukr-pop-64', title: "Зірочка палай", artist: "Анна Трінчер", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-65', title: "Лише тебе", artist: "Анна Трінчер", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-66', title: "Лише ти і я ", artist: "Анна Трінчер & Voloshyn", category: "Українські", subcategory: "Поп" },
+            { id: 'ukr-pop-158', title: "Маргарита", artist: "Анна Трінчер", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-67', title: "Буде син", artist: "Антитіла", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-68', title: "Все красиво", artist: "Антитіла", category: "Українські", subcategory: "Поп" },
             { id: 'ukr-pop-69', title: "Джеральдіна", artist: "Арсен Мірзоян", category: "Українські", subcategory: "Поп" },
